@@ -160,7 +160,7 @@ textarea {
     border-radius: 999px;
     background: currentColor;
     transform-origin: center;
-    transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.22s ease;
+    transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.15s ease;
 }
 
 .menu-toggle[aria-expanded="true"] span:nth-child(1) {
