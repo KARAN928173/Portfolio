@@ -1076,6 +1076,9 @@ textarea.form-control {
 .stat-card{
     backdrop-filter:none;
 }
+    .site-nav{
+        transition: none;
+    }
     .hero-grid {
         gap: 20px;
     }
