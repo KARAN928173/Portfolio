@@ -154,6 +154,7 @@ textarea {
 }
 
 .menu-toggle span {
+    will-change: transform,opacity;
     width: 18px;
     height: 2px;
     border-radius: 999px;
