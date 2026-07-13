@@ -1067,9 +1067,9 @@ textarea.form-control {
 }
 
 @media (max-width: 859px) {
-.header-shell{
+/* .header-shell{
     backdrop-filter:none;
-}
+} */
 
 .card,
 .project-card,
