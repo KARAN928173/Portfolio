@@ -1067,6 +1067,15 @@ textarea.form-control {
 }
 
 @media (max-width: 859px) {
+.header-shell{
+    backdrop-filter:none;
+}
+
+.card,
+.project-card,
+.stat-card{
+    backdrop-filter:none;
+}
     .hero-grid {
         gap: 20px;
     }
