@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f6438" />
+      <stop offset="0.45" stop-color="#4a3323" />
+      <stop offset="1" stop-color="#241c16" />
+    </linearGradient>
+    <linearGradient id="gold" x1="14" y1="10" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2d7b0" />
+      <stop offset="0.42" stop-color="#cc9c66" />
+      <stop offset="1" stop-color="#8c6035" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.28" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#fff7eb" stop-opacity="0.46" />
+      <stop offset="0.35" stop-color="#fff7eb" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#fff7eb" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#bg)" />
+  <rect x="5" y="5" width="54" height="54" rx="17" fill="none" stroke="url(#gold)" stroke-width="1.5" />
+  <rect x="10.5" y="10.5" width="43" height="43" rx="13.5" fill="url(#glow)" />
+  <circle cx="32" cy="32" r="17.5" fill="none" stroke="#e3bb8b" stroke-opacity="0.34" stroke-width="1.15" />
+  <path d="M20 18.5h24" stroke="#f3dfc4" stroke-opacity="0.38" stroke-linecap="round" />
+  <text
+    x="32"
+    y="40"
+    text-anchor="middle"
+    font-size="22"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700"
+    letter-spacing="1.2"
+    fill="#fff6ea"
+  >
+    KD
+  </text>
+</svg>
